@@ -16,10 +16,10 @@ public class Conversio {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         
-        System.out.println("Introdueix en €");
-        int valor_euros = sc.nextInt();
+        System.out.println("Introdueix en £ ");
+        int valor_lliures = sc.nextInt();
                 
         double tipus_de_canvi = 1.15d;
-        System.out.println(valor_euros + " eur0s (€) acatualmentt ewuivalen a" + (valor_euros * tipus_de_canvi) + " lliures esterlines (£)");
+        System.out.println(valor_lliures + " lliures esterlines (£) acatualmentt ewuivalen a" + (valor_lliures * tipus_de_canvi) + " eur0s (€)");
     }
 }
