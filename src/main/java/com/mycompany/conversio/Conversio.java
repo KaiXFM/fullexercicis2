@@ -19,7 +19,7 @@ public class Conversio {
         System.out.println("Introdueix en £ ");
         int valor_lliures = sc.nextInt();
                 
-        double tipus_de_canvi = 1.15d;
+        double tipus_de_canvi = 1.15;
         System.out.println(valor_lliures + " lliures esterlines (£) actualment equivalen a" + (valor_lliures * tipus_de_canvi) + " euros (€)");
     }
 }
